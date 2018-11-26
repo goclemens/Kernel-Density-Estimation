@@ -1,0 +1,20 @@
+{
+  "name": "kernel-density-estimation",
+  "version": "0.1.0",
+  "description": "object to create dynamic kernel density estimations",
+  "main": "KernalDensEst.js",
+  "directories": {
+    "example": "example",
+    "lib": "src",
+    "bin": "builds"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "author": "Clemens Hübner-Worseck",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup-plugin-uglify": "^3.0.0"
+  }
+}
